@@ -1,0 +1,64 @@
+sunbeam@sunbeam-Aspire-A715-51G:/home$ cd
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop  Documents  Downloads  linux  Linux_Cloud  Music  newfile.txt  Pictures  Public  snap  Templates  Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat newfile.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ echo "Hello World!">>newfile.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat newfile.txt
+Hello World!
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n newfile.txt
+     1	Hello World!
+sunbeam@sunbeam-Aspire-A715-51G:~$ echo "This is first line" >>newfile.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat newfile.txt
+Hello World!
+This is first line
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n newfile.txt
+     1	Hello World!
+     2	This is first line
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_third_file.txt
+This is my_third_file
+welcome to my_third_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n newfile.txt
+     1	Hello World!
+     2	This is first line
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n  my_file.txt
+     1	This is my_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n  my_other_file.txt
+     1	This is my_other_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n  my_thrird_file.txt
+cat: my_thrird_file.txt: No such file or directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -n  my_third_file.txt
+     1	This is my_third_file
+     2	welcome to my_third_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -b  my_file.txt
+     1	This is my_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -b  my_other_file.txt
+     1	This is my_other_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -b  my_thrird_file.txt
+cat: my_thrird_file.txt: No such file or directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -b  my_third_file.txt
+     1	This is my_third_file
+     2	welcome to my_third_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -s  my_file.txt
+This is my_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -s  my_other_file.txt
+This is my_other_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat -s  my_third_file.txt
+This is my_third_file
+welcome to my_third_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ touch my_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ echo "This is my_file">>my_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_file.txt
+This is my_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ touch my_other_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ echo "This is my_other_file" >>my_other_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_other_file
+cat: my_other_file: No such file or directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_other_file.txt
+This is my_other_file
+sunbeam@sunbeam-Aspire-A715-51G:~$ touch my_third_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ echo "This is my_third_file">>my_third_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat my_third_file
+cat: my_third_file: No such file or directory
+
+     

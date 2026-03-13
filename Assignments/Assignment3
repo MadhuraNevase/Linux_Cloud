@@ -1,0 +1,218 @@
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir my_directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop    Downloads  Linux_Cloud  my_directory  my_other_file.txt  newfile.txt  Public  Templates
+Documents  linux      Music        my_file.txt   my_third_file.txt  Pictures     snap    Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir my_directory/our_directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ tree
+.
+├── Desktop
+├── Documents
+├── Downloads
+├── linux
+│   └── Assignments
+│       └── Assignment2
+├── Linux_Cloud
+│   ├── assignment1
+│   ├── hii
+│   └── Linux-Programming-Cloud-Computing
+│       ├── Assignment
+│       │   ├── 1_Linux_Command_assignment_I (1).pdf
+│       │   ├── 2_Linux_Commands_Assignment_II (2).pdf
+│       │   └── 3_Linux_Commands_Assignment-III (1).pdf
+│       ├── day1
+│       │   └── notes
+│       │       ├── Linux.pdf
+│       │       └── notes.md
+│       └── README.md
+├── Music
+├── my_directory
+│   └── our_directory
+├── my_file.txt
+├── my_other_file.txt
+├── my_third_file.txt
+├── newfile.txt
+├── Pictures
+│   └── Screenshots
+│       └── Screenshot from 2026-03-12 13-30-39.png
+├── Public
+├── snap
+│   ├── firefox
+│   │   ├── 4848
+│   │   ├── common
+│   │   └── current -> 4848
+│   └── snapd-desktop-integration
+│       ├── 178
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── 343
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── common
+│       └── current -> 343
+├── Templates
+└── Videos
+
+44 directories, 14 files
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir .new_directory
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop    Downloads  Linux_Cloud  my_directory  my_other_file.txt  newfile.txt  Public  Templates
+Documents  linux      Music        my_file.txt   my_third_file.txt  Pictures     snap    Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -la
+total 124
+drwxr-x--- 18 sunbeam sunbeam 4096 Mar 12 14:14 .
+drwxr-xr-x  3 root    root    4096 Mar 12 12:49 ..
+-rw-------  1 sunbeam sunbeam 4912 Mar 12 12:03 .bash_history
+-rw-r--r--  1 sunbeam sunbeam  220 Mar  3 16:32 .bash_logout
+-rw-r--r--  1 sunbeam sunbeam 3771 Mar  3 16:32 .bashrc
+drwx------ 12 sunbeam sunbeam 4096 Mar 11 14:43 .cache
+drwx------ 13 sunbeam sunbeam 4096 Mar 11 14:46 .config
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Desktop
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Documents
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Downloads
+-rw-------  1 sunbeam sunbeam   75 Mar 12 12:54 .lesshst
+drwxrwxr-x  3 sunbeam sunbeam 4096 Mar 12 13:43 linux
+drwxrwxr-x  3 sunbeam sunbeam 4096 Mar 11 14:54 Linux_Cloud
+drwx------  3 sunbeam sunbeam 4096 Mar  3 23:57 .local
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Music
+drwxrwxr-x  3 sunbeam sunbeam 4096 Mar 12 14:13 my_directory
+-rw-rw-r--  1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+-rw-rw-r--  1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r--  1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+drwxrwxr-x  2 sunbeam sunbeam 4096 Mar 12 14:14 .new_directory
+-rw-rw-r--  1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+drwxr-xr-x  3 sunbeam sunbeam 4096 Mar 12 13:30 Pictures
+-rw-r--r--  1 sunbeam sunbeam  807 Mar  3 16:32 .profile
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Public
+drwx------  4 sunbeam sunbeam 4096 Mar 11 16:17 snap
+-rw-r--r--  1 sunbeam sunbeam    0 Mar 11 14:28 .sudo_as_admin_successful
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Templates
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  3 23:57 Videos
+-rw-------  1 sunbeam sunbeam 9562 Mar 12 12:12 .viminfo
+sunbeam@sunbeam-Aspire-A715-51G:~$ cd my_directory
+sunbeam@sunbeam-Aspire-A715-51G:~/my_directory$ ls -la
+total 12
+drwxrwxr-x  3 sunbeam sunbeam 4096 Mar 12 14:13 .
+drwxr-x--- 18 sunbeam sunbeam 4096 Mar 12 14:14 ..
+drwxrwxr-x  2 sunbeam sunbeam 4096 Mar 12 14:13 our_directory
+sunbeam@sunbeam-Aspire-A715-51G:~/my_directory$ cd ..
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -l
+total 64
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Desktop
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Documents
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Downloads
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 12 13:43 linux
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 11 14:54 Linux_Cloud
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Music
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 12 14:13 my_directory
+-rw-rw-r-- 1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+drwxr-xr-x 3 sunbeam sunbeam 4096 Mar 12 13:30 Pictures
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Public
+drwx------ 4 sunbeam sunbeam 4096 Mar 11 16:17 snap
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Templates
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir pictures
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir pictures/vacation pictures/family pictures/friends
+sunbeam@sunbeam-Aspire-A715-51G:~$ cd pictures
+sunbeam@sunbeam-Aspire-A715-51G:~/pictures$ tree
+.
+├── family
+├── friends
+└── vacation
+
+3 directories, 0 files
+sunbeam@sunbeam-Aspire-A715-51G:~/pictures$ cd ..
+sunbeam@sunbeam-Aspire-A715-51G:~$ mkdir dir1
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop  Documents  linux        Music         my_file.txt        my_third_file.txt  pictures  Public  Templates
+dir1     Downloads  Linux_Cloud  my_directory  my_other_file.txt  newfile.txt        Pictures  snap    Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ tree
+.
+├── Desktop
+├── dir1
+├── Documents
+├── Downloads
+├── linux
+│   └── Assignments
+│       ├── Assignment2
+│       └── Untitled Document 1
+├── Linux_Cloud
+│   ├── assignment1
+│   ├── hii
+│   └── Linux-Programming-Cloud-Computing
+│       ├── Assignment
+│       │   ├── 1_Linux_Command_assignment_I (1).pdf
+│       │   ├── 2_Linux_Commands_Assignment_II (2).pdf
+│       │   └── 3_Linux_Commands_Assignment-III (1).pdf
+│       ├── day1
+│       │   └── notes
+│       │       ├── Linux.pdf
+│       │       └── notes.md
+│       └── README.md
+├── Music
+├── my_directory
+│   └── our_directory
+├── my_file.txt
+├── my_other_file.txt
+├── my_third_file.txt
+├── newfile.txt
+├── pictures
+│   ├── family
+│   ├── friends
+│   └── vacation
+├── Pictures
+│   └── Screenshots
+│       └── Screenshot from 2026-03-12 13-30-39.png
+├── Public
+├── snap
+│   ├── firefox
+│   │   ├── 4848
+│   │   ├── common
+│   │   └── current -> 4848
+│   └── snapd-desktop-integration
+│       ├── 178
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── 343
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── common
+│       └── current -> 343
+├── Templates
+└── Videos
+
+49 directories, 15 files
+sunbeam@sunbeam-Aspire-A715-51G:~$ rm -rf dir1
+sunbeam@sunbeam-Aspire-A715-51G:~$ rm -rf pictures
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop    Downloads  Linux_Cloud  my_directory  my_other_file.txt  newfile.txt  Public  Templates
+Documents  linux      Music        my_file.txt   my_third_file.txt  Pictures     snap    Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ 
+
+

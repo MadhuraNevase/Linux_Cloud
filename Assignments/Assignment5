@@ -1,0 +1,187 @@
+sunbeam@madhura-96364-b2:~$ mkdir my_files
+sunbeam@madhura-96364-b2:~$ ls
+3.txt   Desktop    linux        meshagent.msh   my_directory  myinfo             newfile.txt  Public     Videos
+4:00    Documents  Linux_Cloud  meshinstall.sh  my_files      my_other_file.txt  one          snap
+44.txt  Downloads  meshagent    Music           my_file.txt   my_third_file.txt  Pictures     Templates
+sunbeam@madhura-96364-b2:~$ cd my_files
+sunbeam@madhura-96364-b2:~/my_files$ touch file1.txt file2.txt file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ ls
+file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ mkdir backup
+sunbeam@madhura-96364-b2:~/my_files$ ls
+backup  file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cd backup
+sunbeam@madhura-96364-b2:~/my_files/backup$ 
+sunbeam@madhura-96364-b2:~$ mkdir my_files
+sunbeam@madhura-96364-b2:~$ ls
+3.txt   Desktop    linux        meshagent.msh   my_directory  myinfo             newfile.txt  Public     Videos
+4:00    Documents  Linux_Cloud  meshinstall.sh  my_files      my_other_file.txt  one          snap
+44.txt  Downloads  meshagent    Music           my_file.txt   my_third_file.txt  Pictures     Templates
+sunbeam@madhura-96364-b2:~$ cd my_files
+sunbeam@madhura-96364-b2:~/my_files$ touch file1.txt file2.txt file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ ls
+file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ mkdir backup
+sunbeam@madhura-96364-b2:~/my_files$ ls
+backup  file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cd backup
+sunbeam@madhura-96364-b2:~/my_files/backup$ ^C
+sunbeam@madhura-96364-b2:~/my_files/backup$ cp file1.txt file2.txt backup/
+cp: target 'backup/' is not a directory
+sunbeam@madhura-96364-b2:~/my_files/backup$ ls
+sunbeam@madhura-96364-b2:~/my_files/backup$ cd ..
+sunbeam@madhura-96364-b2:~/my_files$ ls
+backup  file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cp file1.txt file2.txt backup/
+sunbeam@madhura-96364-b2:~/my_files$ cd backup
+sunbeam@madhura-96364-b2:~/my_files/backup$ ls
+file1.txt  file2.txt
+sunbeam@madhura-96364-b2:~/my_files/backup$ cp file3.txt Desktop/
+cp: cannot stat 'file3.txt': No such file or directory
+sunbeam@madhura-96364-b2:~/my_files/backup$ cd ..
+sunbeam@madhura-96364-b2:~/my_files$ cp file3.txt Desktop/
+cp: cannot create regular file 'Desktop/': Not a directory
+sunbeam@madhura-96364-b2:~/my_files$ cd ..
+sunbeam@madhura-96364-b2:~$ cp file3.txt Desktop/
+cp: cannot stat 'file3.txt': No such file or directory
+sunbeam@madhura-96364-b2:~$ cd my_files
+sunbeam@madhura-96364-b2:~/my_files$ cp file3.txt ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_files$ ls ~/Desktop/
+file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cp -R ~/my_files ~/my_old_files
+sunbeam@madhura-96364-b2:~/my_files$ cp -R backup ~/
+sunbeam@madhura-96364-b2:~/my_files$ cd ..
+sunbeam@madhura-96364-b2:~$ ls
+3.txt   backup     Downloads    meshagent       Music         my_file.txt   my_other_file.txt  one       snap
+4:00    Desktop    linux        meshagent.msh   my_directory  myinfo        my_third_file.txt  Pictures  Templates
+44.txt  Documents  Linux_Cloud  meshinstall.sh  my_files      my_old_files  newfile.txt        Public    Videos
+sunbeam@madhura-96364-b2:~$ mkdir my_music
+sunbeam@madhura-96364-b2:~$ cd my_music
+sunbeam@madhura-96364-b2:~/my_music$ touch my_music song_1.mp3 , song_2.mp3, song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ touch my_music song_1.mp3 song_2.mp3 song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  song_1.mp3  song_2.mp3  song_2.mp3,  song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ cd old_music/
+bash: cd: old_music/: No such file or directory
+sunbeam@madhura-96364-b2:~/my_music$ mkdir old_music
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_1.mp3  song_2.mp3  song_2.mp3,  song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ mv song_1.mp3 old_music
+sunbeam@madhura-96364-b2:~/my_music$ cd old_music/
+sunbeam@madhura-96364-b2:~/my_music/old_music$ ls
+song_1.mp3
+sunbeam@madhura-96364-b2:~/my_music/old_music$ cd ..
+sunbeam@madhura-96364-b2:~/my_music$ mv song_3.mp3 new_song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv song_2.mp3 ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ cd ~/Desktop/
+sunbeam@madhura-96364-b2:~/Desktop$ ls
+file3.txt  song_2.mp3
+sunbeam@madhura-96364-b2:~/Desktop$ cd my_music
+bash: cd: my_music: No such file or directory
+sunbeam@madhura-96364-b2:~/Desktop$ cd ..
+sunbeam@madhura-96364-b2:~$ cd my_music
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv new_song_3.mp3 ~/Deslktop/
+mv: cannot move 'new_song_3.mp3' to '/home/sunbeam/Deslktop/': Not a directory
+sunbeam@madhura-96364-b2:~/my_music$ mv new_song_3.mp3 ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv song_2.mp3 ~/Desktop/
+mv: cannot stat 'song_2.mp3': No such file or directory
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ 
+sunbeam@madhura-96364-b2:~$ mkdir my_files
+sunbeam@madhura-96364-b2:~$ ls
+3.txt   Desktop    linux        meshagent.msh   my_directory  myinfo             newfile.txt  Public     Videos
+4:00    Documents  Linux_Cloud  meshinstall.sh  my_files      my_other_file.txt  one          snap
+44.txt  Downloads  meshagent    Music           my_file.txt   my_third_file.txt  Pictures     Templates
+sunbeam@madhura-96364-b2:~$ cd my_files
+sunbeam@madhura-96364-b2:~/my_files$ touch file1.txt file2.txt file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ ls
+file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ mkdir backup
+sunbeam@madhura-96364-b2:~/my_files$ ls
+backup  file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cd backup
+sunbeam@madhura-96364-b2:~/my_files/backup$ ^C
+sunbeam@madhura-96364-b2:~/my_files/backup$ cp file1.txt file2.txt backup/
+cp: target 'backup/' is not a directory
+sunbeam@madhura-96364-b2:~/my_files/backup$ ls
+sunbeam@madhura-96364-b2:~/my_files/backup$ cd ..
+sunbeam@madhura-96364-b2:~/my_files$ ls
+backup  file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cp file1.txt file2.txt backup/
+sunbeam@madhura-96364-b2:~/my_files$ cd backup
+sunbeam@madhura-96364-b2:~/my_files/backup$ ls
+file1.txt  file2.txt
+sunbeam@madhura-96364-b2:~/my_files/backup$ cp file3.txt Desktop/
+cp: cannot stat 'file3.txt': No such file or directory
+sunbeam@madhura-96364-b2:~/my_files/backup$ cd ..
+sunbeam@madhura-96364-b2:~/my_files$ cp file3.txt Desktop/
+cp: cannot create regular file 'Desktop/': Not a directory
+sunbeam@madhura-96364-b2:~/my_files$ cd ..
+sunbeam@madhura-96364-b2:~$ cp file3.txt Desktop/
+cp: cannot stat 'file3.txt': No such file or directory
+sunbeam@madhura-96364-b2:~$ cd my_files
+sunbeam@madhura-96364-b2:~/my_files$ cp file3.txt ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_files$ ls ~/Desktop/
+file3.txt
+sunbeam@madhura-96364-b2:~/my_files$ cp -R ~/my_files ~/my_old_files
+sunbeam@madhura-96364-b2:~/my_files$ cp -R backup ~/
+sunbeam@madhura-96364-b2:~/my_files$ cd ..
+sunbeam@madhura-96364-b2:~$ ls
+3.txt   backup     Downloads    meshagent       Music         my_file.txt   my_other_file.txt  one       snap
+4:00    Desktop    linux        meshagent.msh   my_directory  myinfo        my_third_file.txt  Pictures  Templates
+44.txt  Documents  Linux_Cloud  meshinstall.sh  my_files      my_old_files  newfile.txt        Public    Videos
+sunbeam@madhura-96364-b2:~$ mkdir my_music
+sunbeam@madhura-96364-b2:~$ cd my_music
+sunbeam@madhura-96364-b2:~/my_music$ touch my_music song_1.mp3 , song_2.mp3, song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ touch my_music song_1.mp3 song_2.mp3 song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  song_1.mp3  song_2.mp3  song_2.mp3,  song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ cd old_music/
+bash: cd: old_music/: No such file or directory
+sunbeam@madhura-96364-b2:~/my_music$ mkdir old_music
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_1.mp3  song_2.mp3  song_2.mp3,  song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ mv song_1.mp3 old_music
+sunbeam@madhura-96364-b2:~/my_music$ cd old_music/
+sunbeam@madhura-96364-b2:~/my_music/old_music$ ls
+song_1.mp3
+sunbeam@madhura-96364-b2:~/my_music/old_music$ cd ..
+sunbeam@madhura-96364-b2:~/my_music$ mv song_3.mp3 new_song_3.mp3
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv song_2.mp3 ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ cd ~/Desktop/
+sunbeam@madhura-96364-b2:~/Desktop$ ls
+file3.txt  song_2.mp3
+sunbeam@madhura-96364-b2:~/Desktop$ cd my_music
+bash: cd: my_music: No such file or directory
+sunbeam@madhura-96364-b2:~/Desktop$ cd ..
+sunbeam@madhura-96364-b2:~$ cd my_music
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  new_song_3.mp3  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv new_song_3.mp3 ~/Deslktop/
+mv: cannot move 'new_song_3.mp3' to '/home/sunbeam/Deslktop/': Not a directory
+sunbeam@madhura-96364-b2:~/my_music$ mv new_song_3.mp3 ~/Desktop/
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ mv song_2.mp3 ~/Desktop/
+mv: cannot stat 'song_2.mp3': No such file or directory
+sunbeam@madhura-96364-b2:~/my_music$ ls
+,  my_music  old_music  song_2.mp3,
+sunbeam@madhura-96364-b2:~/my_music$ 
+
+
+
+
+

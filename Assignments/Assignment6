@@ -1,0 +1,63 @@
+sunbeam@madhura-96364-b2:~$ touch data.txt
+sunbeam@madhura-96364-b2:~$ cat >>data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files^C
+sunbeam@madhura-96364-b2:~$ cat myfile.txt | wc
+cat: myfile.txt: No such file or directory
+      0       0       0
+sunbeam@madhura-96364-b2:~$ ls
+3.txt  44.txt  data.txt  Documents  linux        meshagent      meshinstall.sh  my_directory  my_file.txt  my_music      my_other_file.txt  newfile.txt  Pictures  snap       Videos
+4:00   backup  Desktop   Downloads  Linux_Cloud  meshagent.msh  Music           my_files      myinfo       my_old_files  my_third_file.txt  one          Public    Templates
+sunbeam@madhura-96364-b2:~$ cat data.txt | wc
+      5      19     112
+sunbeam@madhura-96364-b2:~$ grep files data.txt
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ grep file data.txt
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ grep -v files data.txt
+Linux is open source.
+In Linux everything is file
+sunbeam@madhura-96364-b2:~$ grep have data.txt
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ grep f* data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ grep "\.$" data.txt
+Linux is open source.
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ 
+unbeam@madhura-96364-b2:~$ head -n 2 data.txt
+Linux is open source.
+In Linux everything is file
+sunbeam@madhura-96364-b2:~$ tail -n 3 data.txt
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ head -n 5 filename | tail -n 3
+head: cannot open 'filename' for reading: No such file or directory
+sunbeam@madhura-96364-b2:~$ head -n 5 data.txt | tail -n 3
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ sed -n '3,5p' data.txt
+files have permissions.
+files have inode no.
+files have size.
+sunbeam@madhura-96364-b2:~$ 
+

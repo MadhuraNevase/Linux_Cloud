@@ -1,0 +1,418 @@
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -c -lt
+total 64
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 12 14:13 my_directory
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 12 13:43 linux
+drwxr-xr-x 3 sunbeam sunbeam 4096 Mar 12 13:30 Pictures
+-rw-rw-r-- 1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+drwx------ 4 sunbeam sunbeam 4096 Mar 12 13:27 snap
+-rw-rw-r-- 1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+drwxrwxr-x 3 sunbeam sunbeam 4096 Mar 11 14:54 Linux_Cloud
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Desktop
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Documents
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Downloads
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Music
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Public
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Templates
+drwxr-xr-x 2 sunbeam sunbeam 4096 Mar  3 23:57 Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -c -lh
+total 64K
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Desktop
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Documents
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Downloads
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 13:43 linux
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 11 14:54 Linux_Cloud
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Music
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 14:13 my_directory
+-rw-rw-r-- 1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+drwxr-xr-x 3 sunbeam sunbeam 4.0K Mar 12 13:30 Pictures
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Public
+drwx------ 4 sunbeam sunbeam 4.0K Mar 12 13:27 snap
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Templates
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -lh
+total 64K
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Desktop
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Documents
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Downloads
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 13:43 linux
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 11 14:54 Linux_Cloud
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Music
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 14:13 my_directory
+-rw-rw-r-- 1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+drwxr-xr-x 3 sunbeam sunbeam 4.0K Mar 12 13:30 Pictures
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Public
+drwx------ 4 sunbeam sunbeam 4.0K Mar 11 16:17 snap
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Templates
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -S -lh
+total 64K
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Desktop
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Documents
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Downloads
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 13:43 linux
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 11 14:54 Linux_Cloud
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Music
+drwxrwxr-x 3 sunbeam sunbeam 4.0K Mar 12 14:13 my_directory
+drwxr-xr-x 3 sunbeam sunbeam 4.0K Mar 12 13:30 Pictures
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Public
+drwx------ 4 sunbeam sunbeam 4.0K Mar 11 16:17 snap
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Templates
+drwxr-xr-x 2 sunbeam sunbeam 4.0K Mar  3 23:57 Videos
+-rw-rw-r-- 1 sunbeam sunbeam   47 Mar 12 13:28 my_third_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   32 Mar 12 13:22 newfile.txt
+-rw-rw-r-- 1 sunbeam sunbeam   22 Mar 12 13:25 my_other_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam   16 Mar 12 13:24 my_file.txt
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -i 
+1310803 Desktop    1311337 Linux_Cloud   1315842 my_other_file.txt  1310811 Public
+1310812 Documents  1310813 Music         1314044 my_third_file.txt  1310726 snap
+1310809 Downloads  1315870 my_directory  1314537 newfile.txt        1310810 Templates
+1310995 linux      1316257 my_file.txt   1310814 Pictures           1310815 Videos
+sunbeam@sunbeam-Aspire-A715-51G:~$ tree
+.
+├── Desktop
+├── Documents
+├── Downloads
+├── linux
+│   └── Assignments
+│       ├── Assignment2
+│       └── Assignment3
+├── Linux_Cloud
+│   ├── assignment1
+│   ├── hii
+│   └── Linux-Programming-Cloud-Computing
+│       ├── Assignment
+│       │   ├── 1_Linux_Command_assignment_I (1).pdf
+│       │   ├── 2_Linux_Commands_Assignment_2.pdf
+│       │   ├── 3_Linux_Commands_Assignment-3.pdf
+│       │   ├── 4_Linux_commands_assignment_4.pdf
+│       │   ├── 5_Linux_Commands_Assignment-5.pdf
+│       │   └── 6_Linux_Commands_assignment_6.pdf
+│       ├── day1
+│       │   └── notes
+│       │       ├── Linux.pdf
+│       │       └── notes.md
+│       ├── day2
+│       │   └── notes
+│       │       └── notes.md
+│       └── README.md
+├── Music
+├── my_directory
+│   └── our_directory
+├── my_file.txt
+├── my_other_file.txt
+├── my_third_file.txt
+├── newfile.txt
+├── Pictures
+│   └── Screenshots
+│       └── Screenshot from 2026-03-12 13-30-39.png
+├── Public
+├── snap
+│   ├── firefox
+│   │   ├── 4848
+│   │   ├── common
+│   │   └── current -> 4848
+│   └── snapd-desktop-integration
+│       ├── 178
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── 343
+│       │   ├── Desktop
+│       │   ├── Documents
+│       │   ├── Downloads
+│       │   ├── Music
+│       │   ├── Pictures
+│       │   ├── Public
+│       │   ├── Templates
+│       │   └── Videos
+│       ├── common
+│       └── current -> 343
+├── Templates
+└── Videos
+
+46 directories, 19 files
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls -R
+.:
+Desktop    Downloads  Linux_Cloud  my_directory  my_other_file.txt  newfile.txt  Public  Templates
+Documents  linux      Music        my_file.txt   my_third_file.txt  Pictures     snap    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./linux:
+Assignments
+
+./linux/Assignments:
+Assignment2  Assignment3
+
+./Linux_Cloud:
+assignment1  hii  Linux-Programming-Cloud-Computing
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing:
+Assignment  day1  day2  README.md
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing/Assignment:
+'1_Linux_Command_assignment_I (1).pdf'   3_Linux_Commands_Assignment-3.pdf   5_Linux_Commands_Assignment-5.pdf
+ 2_Linux_Commands_Assignment_2.pdf       4_Linux_commands_assignment_4.pdf   6_Linux_Commands_assignment_6.pdf
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing/day1:
+notes
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing/day1/notes:
+Linux.pdf  notes.md
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing/day2:
+notes
+
+./Linux_Cloud/Linux-Programming-Cloud-Computing/day2/notes:
+notes.md
+
+./Music:
+
+./my_directory:
+our_directory
+
+./my_directory/our_directory:
+
+./Pictures:
+Screenshots
+
+./Pictures/Screenshots:
+'Screenshot from 2026-03-12 13-30-39.png'
+
+./Public:
+
+./snap:
+firefox  snapd-desktop-integration
+
+./snap/firefox:
+4848  common  current
+
+./snap/firefox/4848:
+
+./snap/firefox/common:
+
+./snap/snapd-desktop-integration:
+178  343  common  current
+
+./snap/snapd-desktop-integration/178:
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+
+./snap/snapd-desktop-integration/178/Desktop:
+
+./snap/snapd-desktop-integration/178/Documents:
+
+./snap/snapd-desktop-integration/178/Downloads:
+
+./snap/snapd-desktop-integration/178/Music:
+
+./snap/snapd-desktop-integration/178/Pictures:
+
+./snap/snapd-desktop-integration/178/Public:
+
+./snap/snapd-desktop-integration/178/Templates:
+
+./snap/snapd-desktop-integration/178/Videos:
+
+./snap/snapd-desktop-integration/343:
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+
+./snap/snapd-desktop-integration/343/Desktop:
+
+./snap/snapd-desktop-integration/343/Documents:
+
+./snap/snapd-desktop-integration/343/Downloads:
+
+./snap/snapd-desktop-integration/343/Music:
+
+./snap/snapd-desktop-integration/343/Pictures:
+
+./snap/snapd-desktop-integration/343/Public:
+
+./snap/snapd-desktop-integration/343/Templates:
+
+./snap/snapd-desktop-integration/343/Videos:
+
+./snap/snapd-desktop-integration/common:
+
+./Templates:
+
+./Videos:
+sunbeam@sunbeam-Aspire-A715-51G:~$ touch myinfo
+sunbeam@sunbeam-Aspire-A715-51G:~$ ls
+Desktop    Downloads  Linux_Cloud  my_directory  myinfo             my_third_file.txt  Pictures  snap       Videos
+Documents  linux      Music        my_file.txt   my_other_file.txt  newfile.txt        Public    Templates
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat >>myinfo
+Name: Madhura
+Surname: Nevase^C
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat myinfo
+Name: Madhura
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat >>myinfo
+Name: Madhura
+Surname: Nevase
+^C
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat myinfo
+Name: Madhura
+Surname: Nevase
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat >>myinfo
+Address: Pune
+^C
+sunbeam@sunbeam-Aspire-A715-51G:~$ cat myinfo
+Name: Madhura
+Surname: Nevase
+Address: Pune
+sunbeam@sunbeam-Aspire-A715-51G:~$ touch -d
+sunbeam@madhura-96364-b2:~$ touch myinfo -d
+touch: option requires an argument -- 'd'
+Try 'touch --help' for more information.
+sunbeam@madhura-96364-b2:~$ touch myinfo -d 10:00
+sunbeam@madhura-96364-b2:~$ ls -l myinfo
+-rw-rw-r-- 1 sunbeam sunbeam 44 Mar 12 10:00 myinfo
+sunbeam@madhura-96364-b2:~$ mkdir one
+sunbeam@madhura-96364-b2:~$ cd one
+sunbeam@madhura-96364-b2:~/one$ touch 1.txt 11.txt 111.txt
+sunbeam@madhura-96364-b2:~/one$ mkdir two
+sunbeam@madhura-96364-b2:~/one$ cd two
+sunbeam@madhura-96364-b2:~/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@madhura-96364-b2:~/one/two$ mkdir three
+sunbeam@madhura-96364-b2:~/one/two$ touch 3.txt 33.txt 333.txt
+sunbeam@madhura-96364-b2:~/one/two$ mkdir four
+sunbeam@madhura-96364-b2:~/one/two$ cd four
+sunbeam@madhura-96364-b2:~/one/two/four$ touch 4.txt 44.txt 444.txt
+sunbeam@madhura-96364-b2:~/one/two/four$ mkdir five
+sunbeam@madhura-96364-b2:~/one/two/four$ cd five
+sunbeam@madhura-96364-b2:~/one/two/four/five$ touch 5.txt 55.txt 555.txt
+sunbeam@madhura-96364-b2:~/one/two/four/five$ cd ~
+sunbeam@madhura-96364-b2:~$ ls five
+ls: cannot access 'five': No such file or directory
+sunbeam@madhura-96364-b2:~$ cd /five/
+bash: cd: /five/: No such file or directory
+sunbeam@madhura-96364-b2:~$ cd five
+bash: cd: five: No such file or directory
+sunbeam@madhura-96364-b2:~$ ls -l five
+ls: cannot access 'five': No such file or directory
+sunbeam@madhura-96364-b2:~$ ls one/two/three/four/five/
+ls: cannot access 'one/two/three/four/five/': No such file or directory
+sunbeam@madhura-96364-b2:~$ cd one/two/three/four/five
+bash: cd: one/two/three/four/five: No such file or directory
+sunbeam@madhura-96364-b2:~$ ls -R  one/two/three/four/five
+ls: cannot access 'one/two/three/four/five': No such file or directory
+sunbeam@madhura-96364-b2:~$ ls -R one/two/three/four/five
+one/two/three/four/five:
+555.txt  55.txt  5.txt
+sunbeam@madhura-96364-b2:~$ cat >>44.txt
+Madhura Nevase
+^C
+sunbeam@madhura-96364-b2:~$ cat 44.txt
+Madhura Nevase
+sunbeam@madhura-96364-b2:~$ rm -rf 555.txt
+sunbeam@madhura-96364-b2:~$ cat five
+cat: five: No such file or directory
+sunbeam@madhura-96364-b2:~$ ls - R one/two/three/four/five
+ls: cannot access '-': No such file or directory
+ls: cannot access 'R': No such file or directory
+one/two/three/four/five:
+555.txt  55.txt  5.txt
+sunbeam@madhura-96364-b2:~$ cd five
+bash: cd: five: No such file or directory
+sunbeam@madhura-96364-b2:~$ rm five/555.txt
+rm: cannot remove 'five/555.txt': No such file or directory
+sunbeam@madhura-96364-b2:~$ rm one/two/three/four/five/555.txt
+sunbeam@madhura-96364-b2:~$ ls - R one/two/three/four/five
+ls: cannot access '-': No such file or directory
+ls: cannot access 'R': No such file or directory
+one/two/three/four/five:
+55.txt  5.txt
+sunbeam@madhura-96364-b2:~$ cd  one/two/three/four/five
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ cat >>3.txt
+Course Name: PGCP-BDA
+^C
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ cat 3.txt
+Course Name: PGCP-BDA
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ ls -R one/two
+ls: cannot access 'one/two': No such file or directory
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ cd ..
+sunbeam@madhura-96364-b2:~/one/two/three/four$ cd ..
+sunbeam@madhura-96364-b2:~/one/two/three$ cd ..
+sunbeam@madhura-96364-b2:~/one/two$ ls -R
+.:
+three
+
+./three:
+333.txt  33.txt  3.txt  four
+
+./three/four:
+444.txt  44.txt  4.txt  five
+
+./three/four/five:
+3.txt  55.txt  5.txt
+sunbeam@madhura-96364-b2:~/one/two$ cd .
+sunbeam@madhura-96364-b2:~/one/two$ cd three/four/five
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ cd ../../../
+sunbeam@madhura-96364-b2:~/one/two$ rm 222.txt
+rm: cannot remove '222.txt': No such file or directory
+sunbeam@madhura-96364-b2:~/one/two$ rm 222.txt
+sunbeam@madhura-96364-b2:~/one/two$ cat two
+cat: two: No such file or directory
+sunbeam@madhura-96364-b2:~/one/two$ ls -R
+.:
+22.txt  2.txt  three
+
+./three:
+333.txt  33.txt  3.txt  four
+
+./three/four:
+444.txt  44.txt  4.txt  five
+
+./three/four/five:
+3.txt  55.txt  5.txt
+sunbeam@madhura-96364-b2:~/one/two$ cd ..
+sunbeam@madhura-96364-b2:~/one$ rm -r two/three/four/five/*
+sunbeam@madhura-96364-b2:~/one$ ls -R two/three/four/five
+two/three/four/five:
+sunbeam@madhura-96364-b2:~/one$ ^C
+sunbeam@madhura-96364-b2:~/one$ cd ..
+sunbeam@madhura-96364-b2:~$ ls -R one/two/three/four/five
+one/two/three/four/five:
+sunbeam@madhura-96364-b2:~$ ls two/three/four/five
+ls: cannot access 'two/three/four/five': No such file or directory
+sunbeam@madhura-96364-b2:~$ cd one/
+sunbeam@madhura-96364-b2:~/one$ ls two/three/four/five
+sunbeam@madhura-96364-b2:~/one$ cd two/three/four/five
+sunbeam@madhura-96364-b2:~/one/two/three/four/five$ cd ../../../../
+sunbeam@madhura-96364-b2:~/one$ rmdir two/three/four/five
+sunbeam@madhura-96364-b2:~/one$ ls two/three/four/five
+ls: cannot access 'two/three/four/five': No such file or directory
+sunbeam@madhura-96364-b2:~/one$ ls two/three/four
+444.txt  44.txt  4.txt
+sunbeam@madhura-96364-b2:~/one$ rmdir two/three/four
+rmdir: failed to remove 'two/three/four': Directory not empty
+sunbeam@madhura-96364-b2:~/one$ rm two/three/four/*
+sunbeam@madhura-96364-b2:~/one$ rmdir two/three/four
+sunbeam@madhura-96364-b2:~/one$ ls two/three/four
+ls: cannot access 'two/three/four': No such file or directory
+sunbeam@madhura-96364-b2:~/one$ cd ..
+sunbeam@madhura-96364-b2:~$ touch 3.txt 4:00
+sunbeam@madhura-96364-b2:~$ touch 3.txt -d 4:00
+sunbeam@madhura-96364-b2:~$ ls -l 3.txt
+-rw-rw-r-- 1 sunbeam sunbeam 0 Mar 12 04:00 3.txt
+sunbeam@madhura-96364-b2:~$ 
+
+
+
