@@ -1,0 +1,21 @@
+sunbeam@madhura-96364-b2:~$ echo "Hello world" > example.txt
+sunbeam@madhura-96364-b2:~$ cat example.txt
+Hello world
+sunbeam@madhura-96364-b2:~$ stat -c %s example.txt
+12
+sunbeam@madhura-96364-b2:~$ ls -lh example.txt
+-rw-rw-r-- 1 sunbeam sunbeam 12 Mar 17 22:13 example.txt
+sunbeam@madhura-96364-b2:~$ ls -l example.txt
+-rw-rw-r-- 1 sunbeam sunbeam 12 Mar 17 22:13 example.txt
+sunbeam@madhura-96364-b2:~$ stat example.txt
+  File: example.txt
+  Size: 12        	Blocks: 8          IO Block: 4096   regular file
+Device: 10306h/66310d	Inode: 1354984     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ sunbeam)   Gid: ( 1000/ sunbeam)
+Access: 2026-03-17 22:13:58.102946922 +0530
+Modify: 2026-03-17 22:13:50.001272262 +0530
+Change: 2026-03-17 22:13:50.001272262 +0530
+ Birth: 2026-03-17 22:13:50.001272262 +0530
+sunbeam@madhura-96364-b2:~$ ^C
+sunbeam@madhura-96364-b2:~$ 
+

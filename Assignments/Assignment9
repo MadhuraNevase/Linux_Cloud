@@ -1,0 +1,44 @@
+sunbeam@madhura-96364-b2:~$ cat >>dbda_modules.txt
+1.Linux Programming and Cloud computing
+2.Data Collection and DBMS   
+3.Java Programming
+4.BIg Data Technologies
+5.Advanced Analytics using Statistics
+6.Practical Machine Learning
+7.Data Visualization - Analysis and REporting
+8.Aptitude and Effective Communication^C
+sunbeam@madhura-96364-b2:~$ cat >>dbda_modules.txt
+1.Linux Programming and Cloud computing
+2.Data Collection and DBMS   
+3.Java Programming
+4.BIg Data Technologies
+5.Advanced Analytics using Statistics
+6.Practical Machine Learning
+7.Data Visualization - Analysis and REporting
+8.Aptitude and Effective Communication
+^C
+sunbeam@madhura-96364-b2:~$ 
+sunbeam@madhura-96364-b2:~$ cat dbda_modules.txt | wc
+     15      58     488
+sunbeam@madhura-96364-b2:~$ cat dbda_modules.txt | wc -l
+15
+sunbeam@madhura-96364-b2:~$ cat dbda_modules.txt | wc -w
+58
+sunbeam@madhura-96364-b2:~$ cat dbda_modules.txt | wc -c
+488
+sunbeam@madhura-96364-b2:~$ tail -n 2 dbda_modules.txt
+7.Data Visualization - Analysis and REporting
+8.Aptitude and Effective Communication
+sunbeam@madhura-96364-b2:~$ head -n 4 dbda_modules.txt
+1.Linux Programming and Cloud computing
+2.Data Collection and DBMS
+3.Java Programming
+4.BIg Data Technologies
+sunbeam@madhura-96364-b2:~$ sed -n '3,5p' dbda_modules.txt
+3.Java Programming
+4.BIg Data Technologies
+5.Advanced Analytics using Statistics
+sunbeam@madhura-96364-b2:~$ ^C
+sunbeam@madhura-96364-b2:~$ 
+
+

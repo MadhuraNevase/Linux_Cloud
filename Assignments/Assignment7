@@ -1,0 +1,81 @@
+sunbeam@madhura-96364-b2:~$ cd 96364_day3
+sunbeam@madhura-96364-b2:~/96364_day3$ touch file{1,2,3}.txt file{1,2,3}.doc file{1,2,3}.bak file{1,2,3}.sh
+sunbeam@madhura-96364-b2:~/96364_day3$ ls
+file1.bak  file1.doc  file1.sh  file1.txt  file2.bak  file2.doc  file2.sh  file2.txt  file3.bak  file3.doc  file3.sh  file3.txt
+sunbeam@madhura-96364-b2:~/96364_day3$ ls *.txt
+file1.txt  file2.txt  file3.txt
+sunbeam@madhura-96364-b2:~/96364_day3$ ls *.bak
+file1.bak  file2.bak  file3.bak
+sunbeam@madhura-96364-b2:~/96364_day3$ chmod +x *.sh
+sunbeam@madhura-96364-b2:~/96364_day3$ ls -l *.sh
+-rwxrwxr-x 1 sunbeam sunbeam 0 Mar 14 19:43 file1.sh
+-rwxrwxr-x 1 sunbeam sunbeam 0 Mar 14 19:43 file2.sh
+-rwxrwxr-x 1 sunbeam sunbeam 0 Mar 14 19:43 file3.sh
+sunbeam@madhura-96364-b2:~/96364_day3$ cd ..
+sunbeam@madhura-96364-b2:~$ mkdir files
+sunbeam@madhura-96364-b2:~$ cd files
+sunbeam@madhura-96364-b2:~/files$ mkdir text_files documents images audio_files video_files
+sunbeam@madhura-96364-b2:~/files$ ls
+audio_files  documents  images  text_files  video_files
+sunbeam@madhura-96364-b2:~/files$ touch files{1,2,3}.txt
+sunbeam@madhura-96364-b2:~/files$ touch files{1,2,3}.doc
+sunbeam@madhura-96364-b2:~/files$ cd images
+sunbeam@madhura-96364-b2:~/files/images$ touch files(1,2,3}.jpeg files{1,2,3}.mp3 files{1,2,3}.mp4
+bash: syntax error near unexpected token `('
+sunbeam@madhura-96364-b2:~/files/images$ touch files{1,2,3}.jpeg files{1,2,3}.mp3 files{1,2,3}.mp4
+sunbeam@madhura-96364-b2:~/files/images$ ls
+files1.jpeg  files1.mp3  files1.mp4  files2.jpeg  files2.mp3  files2.mp4  files3.jpeg  files3.mp3  files3.mp4
+sunbeam@madhura-96364-b2:~/files/images$ rm -r *.mp3 *.mp4
+sunbeam@madhura-96364-b2:~/files/images$ ls
+files1.jpeg  files2.jpeg  files3.jpeg
+sunbeam@madhura-96364-b2:~/files/images$ cd ..
+sunbeam@madhura-96364-b2:~/files$ cd audio_files
+sunbeam@madhura-96364-b2:~/files/audio_files$ touch files{1,2,3}.mp3
+sunbeam@madhura-96364-b2:~/files/audio_files$ ls
+files1.mp3  files2.mp3  files3.mp3
+sunbeam@madhura-96364-b2:~/files/audio_files$ cd video_files
+bash: cd: video_files: No such file or directory
+sunbeam@madhura-96364-b2:~/files/audio_files$ cd ..
+sunbeam@madhura-96364-b2:~/files$ cd video_files
+sunbeam@madhura-96364-b2:~/files/video_files$ touch files{1,2,3}.mp4
+sunbeam@madhura-96364-b2:~/files/video_files$ ls
+files1.mp4  files2.mp4  files3.mp4
+sunbeam@madhura-96364-b2:~/files/video_files$ cd ..
+sunbeam@madhura-96364-b2:~/files$ mv *.txt text_files
+sunbeam@madhura-96364-b2:~/files$ cd text_files
+sunbeam@madhura-96364-b2:~/files/text_files$ ls
+files1.txt  files2.txt  files3.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ cd ..
+sunbeam@madhura-96364-b2:~/files$ cp *.doc documents
+sunbeam@madhura-96364-b2:~/files$ ls documents
+files1.doc  files2.doc  files3.doc
+unbeam@madhura-96364-b2:~/files$ cd text_files
+sunbeam@madhura-96364-b2:~/files/text_files$ cat file1.txt
+cat: file1.txt: No such file or directory
+sunbeam@madhura-96364-b2:~/files/text_files$ cat files1.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ echo "Hello this is my first file" > file1.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ cat files1.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ echo "Hello this is my first file" > files1.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ cat files1.txt
+Hello this is my first file
+sunbeam@madhura-96364-b2:~/files/text_files$ echo "Hello this is my second  file" > files2.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ cat files2.txt
+Hello this is my second  file
+sunbeam@madhura-96364-b2:~/files/text_files$ echo "Hello this is my third  file" > files3.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ cat files3.txt
+Hello this is my third  file
+sunbeam@madhura-96364-b2:~/files/text_files$ cd ..
+sunbeam@madhura-96364-b2:~/files$ grep "hello" *.txt
+grep: *.txt: No such file or directory
+sunbeam@madhura-96364-b2:~/files$ ^C
+sunbeam@madhura-96364-b2:~/files$ cd text_files
+sunbeam@madhura-96364-b2:~/files/text_files$ grep "hello" *.txt
+sunbeam@madhura-96364-b2:~/files/text_files$ grep "Hello" *.txt
+file1.txt:Hello this is my first file
+files1.txt:Hello this is my first file
+files2.txt:Hello this is my second  file
+files3.txt:Hello this is my third  file
+sunbeam@madhura-96364-b2:~/files/text_files$ ^C
+sunbeam@madhura-96364-b2:~/files/text_files$ 
+
+
