@@ -1,0 +1,324 @@
+sunbeam@madhura-96364-b2:~/Linux_Cloud/Linux-Programming-Cloud-Computing$ cd ..
+sunbeam@madhura-96364-b2:~/Linux_Cloud$ cd ..
+sunbeam@madhura-96364-b2:~$ vim program1.sh
+sunbeam@madhura-96364-b2:~$ rm program1.sh
+sunbeam@madhura-96364-b2:~$ mkdir Assignment10
+sunbeam@madhura-96364-b2:~$ cd Assignment10
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit2
+March 2026 Su Mo Tu We Th Fr Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+sunbeam@madhura-96364-b2:~/Assignment10$ 1
+1: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 1
+1: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 3
+3: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 4
+4: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 5
+5: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 02:43:15 PM IST
+sunbeam@madhura-96364-b2:~/Assignment10$ 2
+2: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 3
+3: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 4
+4: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ 5
+5: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 02:44:30 PM IST
+sunbeam@madhura-96364-b2:~/Assignment10$ 2
+2: command not found
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit2
+March 2026 Su Mo Tu We Th Fr Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit3
+program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit4
+/home/sunbeam/Assignment10
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit5
+
+sunbeam@madhura-96364-b2:~/Assignment10$ man ls
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:05:47 PM IST
+Enter the path:program1.sh
+program1.sh: line 33: unexpected EOF while looking for matching `"'
+program1.sh: line 36: syntax error: unexpected end of file
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:06:18 PM IST
+Enter the path:program1
+program1.sh: line 33: unexpected EOF while looking for matching `"'
+program1.sh: line 36: syntax error: unexpected end of file
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:07:24 PM IST
+Enter the path:program1
+program1 does not exist or is a special file (like a link/device).
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:07:41 PM IST
+Enter the path:program1.sh
+program1.sh is a file.Its size is:
+4.0K
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:08:33 PM IST
+Enter the path:Assignment10
+Assignment10 does not exist or is a special file (like a link/device).
+sunbeam@madhura-96364-b2:~/Assignment10$ cd ..
+sunbeam@madhura-96364-b2:~$ bash program1.sh
+bash: program1.sh: No such file or directory
+sunbeam@madhura-96364-b2:~$ bash ./Assignment10/program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:09:54 PM IST
+Enter the path:Assignment10
+Assignment10 is a directory and its contents are:
+program1.sh
+sunbeam@madhura-96364-b2:~$ vim program1.sh
+sunbeam@madhura-96364-b2:~$ cd Assignment10
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:27:47 PM IST
+Enter the path:program1
+program1 does not exist or is a special file (like a link/device).
+Enter the number:5 
+program1.sh: line 41: syntax error near unexpected token `then'
+program1.sh: line 41: `if [[ $number -eq 2 ]] then;'
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:28:59 PM IST
+Enter the path:proram1.sh
+proram1.sh does not exist or is a special file (like a link/device).
+Enter the number:1
+program1.sh: line 43: conditional binary operator expected
+program1.sh: line 43: syntax error near `%'
+program1.sh: line 43: `elif [[ $number % 2 -nq 0 ]]; then'
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+logged in user name = sunbeam
+HOme directory      = /home/sunbeam
+Enter the choice: 1.Date 2.Cal 3.Ls 4.Pwd 5.Exit1
+Monday 16 March 2026 03:32:26 PM IST
+Enter the path:program1
+program1 does not exist or is a special file (like a link/device).
+Enter three numbers: 1 2 3
+First: 1, Second: 2, Third: 3
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter three numbers: 1 2 3
+First: 1, Second: 2, Third: 3
+program1.sh: line 55: syntax error in conditional expression
+program1.sh: line 55: syntax error near `-a'
+program1.sh: line 55: `if [[ $n1 > $n2 -a $n1 > $n3 ]]; then'
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter three numbers: 1 2 3
+First: 1, Second: 2, Third: 3
+program1.sh: line 60: unexpected EOF while looking for matching `"'
+program1.sh: line 62: syntax error: unexpected end of file
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter three numbers: 1 2 3
+First: 1, Second: 2, Third: 3
+2 is greatest of three numbers
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter three numbers: 1 2 3
+First: 1, Second: 2, Third: 3
+ 3 is greatest of three numbers
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter three numbers: -4
+First: -4, Second: , Third: 
+-4 is greatest of three numberds
+Enter a number:^C
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:-4
+program1.sh: line 86: syntax error: unexpected end of file
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:-4
+number is positive
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:1 2 3
+program1.sh: line 70: [[: 1 2 3: syntax error in expression (error token is "2 3")
+program1.sh: line 72: [[: 1 2 3: syntax error in expression (error token is "2 3")
+program1.sh: line 74: [[: 1 2 3: syntax error in expression (error token is "2 3")
+Invalid number
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:3
+number is positive
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:-9
+number is negative
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter a number:2
+number is positive
+Enter a number:4
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter filename:program1.sh
+File: program1.sh Size: 2014 Blocks: 8 IO Block: 4096 regular file Device: 10306h/66310d Inode: 1328674 Links: 1 Access: (0664/-rw-rw-r--) Uid: ( 1000/ sunbeam) Gid: ( 1000/ sunbeam) Access: 2026-03-16 16:59:10.825466084 +0530 Modify: 2026-03-16 16:59:08.723439867 +0530 Change: 2026-03-16 16:59:08.791440715 +0530 Birth: 2026-03-16 16:59:08.723439867 +0530
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ man cat
+sunbeam@madhura-96364-b2:~/Assignment10$ man ls
+sunbeam@madhura-96364-b2:~/Assignment10$ man wc
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter filename:program1.sh
+File: program1.sh Size: 2014 Blocks: 8 IO Block: 4096 regular file Device: 10306h/66310d Inode: 1312072 Links: 1 Access: (0664/-rw-rw-r--) Uid: ( 1000/ sunbeam) Gid: ( 1000/ sunbeam) Access: 2026-03-17 14:01:14.168717958 +0530 Modify: 2026-03-17 14:01:08.554633489 +0530 Change: 2026-03-17 14:01:08.560633580 +0530 Birth: 2026-03-17 14:01:08.554633489 +0530
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+stat: missing operand
+Try 'stat --help' for more information.
+. ..
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+. ..
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+. .. .hidden_file.txt
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+. .. .hidden_file.txt
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+None
+None
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+None
+None
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+program1.sh: line 110: echomy_file.txt is an executable file: command not found
+None
+None
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+my_file.txt is an executable file
+None
+None
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+my_file.txt is an executable file
+program1.sh is not an exe
+server.py is not an exe
+sunbeam@madhura-96364-b2:~/Assignment10$ cat server.py
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter two file names:
+file1.txt file2.txt
+program1.sh: line 126: file1.txt: No such file or directory
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter two file names:
+file1 file2
+program1.sh: line 126: file1.txt: No such file or directory
+sunbeam@madhura-96364-b2:~/Assignment10$ vim program1.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter two file names:
+file1 file2
+sunbeam@madhura-96364-b2:~/Assignment10$ cat file2
+This is my file2
+This is my file2
+This is my file2
+tHIS IS MY FILE1
+tHIS IS MY FILE1
+tHIS IS MY FILE1
+sunbeam@madhura-96364-b2:~/Assignment10$ vim welcome.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ bash program1.sh
+Enter two file names:
+^C
+sunbeam@madhura-96364-b2:~/Assignment10$ bash welcome.sh
+welcome sunbeam
+your home directory is total 16
+-rw-rw-r-- 1 sunbeam sunbeam   68 Mar 17 14:54 file1
+-rw-rw-r-- 1 sunbeam sunbeam  119 Mar 17 14:54 file2
+-rwx------ 1 sunbeam sunbeam    0 Mar 17 14:30 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam 2681 Mar 17 14:50 program1.sh
+-rw-rw-r-- 1 sunbeam sunbeam    0 Mar 17 13:51 server.py
+-rw-rw-r-- 1 sunbeam sunbeam   76 Mar 17 14:54 welcome.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ nano ~/.bashrc
+sunbeam@madhura-96364-b2:~/Assignment10$ source ~/.bashrc
+bash: /home/sunbeam/home/sunbeam/linux/Linux_Cloud/Assignments/Assignment10/welcome.sh: No such file or directory
+sunbeam@madhura-96364-b2:~/Assignment10$ nano ~/.bashrc
+sunbeam@madhura-96364-b2:~/Assignment10$ source ~/.bashrc
+bash: /home/sunbeam/linux/Linux_Cloud/Assignments/Assignment10/welcome.sh: Permission denied
+sunbeam@madhura-96364-b2:~/Assignment10$ chmod 700 welcome.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ source ~/.bashrc
+welcome sunbeam
+your home directory is total 16
+-rw-rw-r-- 1 sunbeam sunbeam   68 Mar 17 14:54 file1
+-rw-rw-r-- 1 sunbeam sunbeam  119 Mar 17 14:54 file2
+-rwx------ 1 sunbeam sunbeam    0 Mar 17 14:30 my_file.txt
+-rw-rw-r-- 1 sunbeam sunbeam 2681 Mar 17 14:50 program1.sh
+-rw-rw-r-- 1 sunbeam sunbeam    0 Mar 17 13:51 server.py
+-rwx------ 1 sunbeam sunbeam   76 Mar 17 14:54 welcome.sh
+sunbeam@madhura-96364-b2:~/Assignment10$ 
+
+
